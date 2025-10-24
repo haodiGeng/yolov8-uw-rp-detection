@@ -40,7 +40,7 @@ results = model("test.jpg", save=True)
 - 整体 mAP@0.5：0.340  
 - 礁石检测精确率：0.729 | 召回率：0.241  
 - 管道检测精确率：0.731 | 召回率：0.286
-模型训练版本，存储于 Google Drive，点击链接下载并解压：
+-模型训练版本，存储于 Google Drive，点击链接下载并解压：
 https://drive.google.com/drive/folders/1Ice4UXoIhtHrhN8S19X0hC0HWIe-_iQI?usp=drive_link
 
 六、联系方式
