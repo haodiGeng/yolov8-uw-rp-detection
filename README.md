@@ -1,4 +1,4 @@
-YOLOv8 水下礁石与管道检测项目
+YOLOv8 水下礁石与管道检测
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
 ![YOLOv8](https://img.shields.io/badge/framework-YOLOv8-orange)
@@ -40,7 +40,7 @@ results = model("test.jpg", save=True)
 - 整体 mAP@0.5：0.340  
 - 礁石检测精确率：0.729 | 召回率：0.241  
 - 管道检测精确率：0.731 | 召回率：0.286
-- 模型训练版本，存储于 Google Drive，点击链接下载并解压：
+- 模型训练版本，存储于 Google Drive，点击链接：
   [yolov8_tune_runs](https://drive.google.com/drive/folders/1Ice4UXoIhtHrhN8S19X0hC0HWIe-_iQI?usp=drive_link
 )
   
