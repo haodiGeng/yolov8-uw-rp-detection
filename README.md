@@ -16,7 +16,7 @@ YOLOv8 水下礁石与管道检测项目
 
 三、数据集获取
 由于数据集文件较大，存储于 Google Drive，点击链接下载并解压：  
-[underwater_dataset.zip](https://drive.google.com/file/d/13vxfj91pTnSkRat-5FScnhZNBLRgo5IA/view?usp=drive_link)（替换为你的 Drive 文件链接）  
+[underwater_dataset.zip](https://drive.google.com/file/d/13vxfj91pTnSkRat-5FScnhZNBLRgo5IA/view?usp=drive_link)  
 - 包含图像：共 100 张（训练集 80 张/验证集 20 张）  
 - 标注格式：YOLO 格式（txt 文件，含目标类别与归一化坐标）  
 
@@ -41,7 +41,8 @@ results = model("test.jpg", save=True)
 - 礁石检测精确率：0.729 | 召回率：0.241  
 - 管道检测精确率：0.731 | 召回率：0.286
 - 模型训练版本，存储于 Google Drive，点击链接下载并解压：
-https://drive.google.com/drive/folders/1Ice4UXoIhtHrhN8S19X0hC0HWIe-_iQI?usp=drive_link
-
+  [yolov8_tune_runs](https://drive.google.com/drive/folders/1Ice4UXoIhtHrhN8S19X0hC0HWIe-_iQI?usp=drive_link
+)
+  
 六、联系方式
 - GitHub Issues：https://github.com/haodiGeng/yolov8-uw-rp-detection/issues  
